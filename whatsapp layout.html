@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<style>
+		body {
+			background-color: black;
+			opacity: 0.7;
+		}
+		nav {
+			background-color: rgba(100,100,30,0.8);
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			height: 200px;
+			width: 100%;
+		}
+		a {
+			text-decoration: none;
+			color: white;
+		}
+		a:hover {
+			text-decoration: underline;
+			color: red;
+		}
+		#one {
+			background-color: rgba(100,100,30,0.8);
+			position: relative;
+			top: -55px;
+			left: 30px;
+			height: 80px;
+			width: 200px;
+			color: white;
+			border: 0px solid black;
+			font-size: 22px;
+			font-family: "Times New Roman";
+			font-weight: bolder;
+			transition: border 0.5s linear;
+			overflow: scroll;
+			
+		}
+		#one:hover {
+			border: 1px solid white;
+			height: 180px;
+			overflow: auto;
+		}
+		#two {
+			background-color: rgba(100,100,30,0.8);
+			position: relative;
+			top: -55px;
+			left: 300px;
+			height: 80px;
+			width: 200px;
+			color: white;
+			border: 0px solid black;
+			font-size: 22px;
+			font-family: "Times New Roman";
+			font-weight: bolder;
+			transition: border 0.5s linear;
+			overflow: scroll;
+			
+		}
+		#two:hover {
+			border: 1px solid white;
+			height: 180px;
+			overflow: auto;
+		}
+		#three {
+			background-color: rgba(100,100,30,0.8);
+			position: relative;
+			top: -55px;
+			left: 600px;
+			height: 80px;
+			width: 200px;
+			color: white;
+			border: 0px solid black;
+			font-size: 22px;
+			font-family: "Times New Roman";
+			font-weight: bolder;
+			transition: border 0.5s linear;
+			overflow: scroll;
+			
+		}
+		#three:hover {
+			border: 1px solid white;
+			height: 180px;
+			overflow: auto;
+		}
+		h1 {
+			color: white;
+			text-align: center;
+			font-family: "Times New Roman";
+			font-weight: bolder;
+			font-size: 60px;
+			position: relative;
+			top: -50px;
+		}
+	</style>
+	<title>WHATSAPP LAYOUT</title>
+</head>
+<body>
+<nav>
+	<h1>WHATSAPP</h1>
+	<button id="one" onclick="chat()"><a href="#chats">CHATS</a><br /><br /><br /><p>This is the section where you find all your whatsapp contacts listed in alphabetical order</p></button>
+	<button id="two" onclick="status()"><a href="#status">STATUS</a><br /><br /><br /><p>This is the section where you can see just what your friends and family are up to</p></button>
+	<button id="three" onclick="call()"><a href="#calls">CALLS</a><br /><br /><br /><p>This is the section where you can make creditless calls to any whatsapp contact. However, data charges may apply!</p></button>
+</nav>
+</body>
+</html>
