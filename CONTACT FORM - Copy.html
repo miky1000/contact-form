@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CONTACT FORM</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<style>
+		form {
+			height: 700px;
+			width: 500px;
+			background-color: grey;
+			position: relative;
+			top: 50px;
+			left: 100px;
+		}
+		 a {
+    text-decoration: none;
+    color: red;
+    font-size: 22px;
+    font-weight: lighter;
+    text-align: center;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: blue;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+		h1 {
+			font-size: 40px;
+			text-align: center;
+			font-family: "Courier New";
+			color: red;
+		}
+		input {
+			height: 40px;
+			width: 350px;
+			color: red;
+			background-color: white;
+			border: 1px solid black;
+			font-size: 22px;
+			font-family: "Times New Roman";
+			box-shadow: 5px 5px 2px black;
+			border-radius: 20px;
+			position: relative;
+			left: 40px;
+		}
+		#sub {
+			background-color: blue;
+			color: orange;
+			height: 30px;
+			width: 125px;
+			border-radius: 0px;
+		}
+		#clear {
+			background-color: blue;
+			color: orange;
+			height: 30px;
+			width: 125px;
+			border: 0px solid black;
+			position: relative;
+			left: 250px;
+		}
+		.material-icons {
+			color: orange;
+			font-size: 72px;
+			position: relative;
+			top: 0px;
+			left: 205px;
+		}
+		#gender {
+			color: red;
+			box-shadow: 2px 2px 2px black;
+			height: 25px;
+			width: 25px;
+		}
+	</style>
+</head>
+<body>
+	<a href="report card.html">Return to previous page?</a><br /><br />
+<form autocomplete="off" action="" method="post" onsubmit="alert('thank you for filling in the information. your form has been successfully submitted');">
+	<i class="material-icons">face</i>
+	<h1>REGISTRATION FORM</h1>
+	<input id="input" type="text" name="text" placeholder="enter your names" required=""><br /><br />
+	<input id="input" type="date" name="date" placeholder="date of birth" required=""><br /><br />
+	<input id="gender" type="radio" name="male"><br />
+	<input id="gender" type="radio" name="female"><br /><br />
+	<input id="input" type="email" name="email" placeholder="your email address" required=""><br /><br />
+	<input id="input" type="tel" name="number" placeholder="enter phone number" required=""><br /><br />
+	<input id="input" type="password" name="pass" placeholder="enter user password not less than 8 characters" minlength="8" required=""><br /><br />
+	<input id="sub" type="submit" name="submit"><button id="clear" onclick="input.value=" "">CLEAR DATA</button>
+</form><br /><br /><br /><br />
+</body>
+</html>
